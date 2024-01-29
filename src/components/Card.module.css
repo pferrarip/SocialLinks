@@ -1,0 +1,50 @@
+.CardStyle {
+  width: 20rem;
+  height: 32rem;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-image: url(./assets/pedrinho2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.78rem;
+  justify-content: space-around;
+  font-size: 0.8rem;
+}
+#name {
+  color: white;
+  font-weight: 400;
+}
+#statss {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+#phrase {
+  color: white;
+  font-weight: 400;
+}
+@media (min-width: 1920px) {
+  .CardStyle {
+    transform: scale(1.7);
+  }
+}
